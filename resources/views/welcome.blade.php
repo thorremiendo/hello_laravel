@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Thor Laravel
+                    Thor Pogi Laravel
                 </div>
 
                 <div class="links">
