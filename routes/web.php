@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/users', 'UsersController@index');
+Route::get('users/1', 'UsersController@show');
+Route::get('users/1/edit', 'UsersController@edit');
+Route::post('users/1/delete', 'UsersController@destroy');
+Route::post('users/1/update', 'UsersController@update');
+Route::post('users/1/', 'UsersController@store');
+
+
